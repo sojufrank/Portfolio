@@ -1,0 +1,89 @@
+//body background color
+body {
+    background-color: #32313b;
+}
+
+a.btn.btn-default {
+	font-family: 'Bowlby One', cursive;
+	color:white;
+	border: 1px solid transparent;
+	background-color: #25242c;
+}
+
+a.btn.btn-default:hover {
+	background-color: #515056;
+}
+
+
+
+//navbar
+.frankNav ul li {
+	display: inline-block;
+	list-style-type: none;
+}	
+.frankBrandLeft {
+    font-size: 3em;
+    font-family: 'Bowlby One', cursive;
+    color: #ec3f8c;
+}
+.frankBrandRight {
+    font-size: 2em;
+    font-family: 'La Belle Aurore', cursive;
+    color: #39b1c6;
+}
+.floatRight {
+	float:right;
+}
+.floatRight a:hover {
+	background-color: #515056;
+}
+
+
+
+//jumbotron
+.jumbotron {
+    text-align: center;
+    background-color: #32313b;
+}
+.jumbotron h1 {
+    font-family: 'Frijole', cursive;
+    color: #ec3f8c;
+}
+.jumbotron h3 {
+    font-family: 'Racing Sans One', cursive;
+    color: #39b1c6;
+}
+
+
+//content
+.col-sm-4.content h3 {
+    font-family: 'Sigmar One', cursive;
+    text-align: center;
+    color: #ec3f8c;
+}
+.col-sm-4.content p {
+    font-family: 'Candal', sans-serif;
+    //text-align: center;
+    color: #39b1c6;
+}
+
+
+
+//footer
+.container.footer {
+    padding-top: 10px;
+    color: white;
+}
+.ftList {
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+}
+.ftListLeft {
+	color: #ec3f8c;
+}
+#footerRight {
+	color: #39b1c6;
+    float: right;
+}
