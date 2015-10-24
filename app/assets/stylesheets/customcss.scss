@@ -4,7 +4,7 @@ body {
 }
 
 a.btn.btn-default {
-	font-family: 'Bowlby One', cursive;
+	font-family: 'Bowlby One SC', cursive;
 	color:white;
 	border: 1px solid transparent;
 	background-color: #25242c;
@@ -23,7 +23,7 @@ a.btn.btn-default:hover {
 }	
 .frankBrandLeft {
     font-size: 3em;
-    font-family: 'Bowlby One', cursive;
+    font-family: 'Bowlby One SC', cursive;
     color: #ec3f8c;
 }
 .frankBrandRight {
@@ -70,20 +70,18 @@ a.btn.btn-default:hover {
 
 
 //footer
-.container.footer {
-    padding-top: 10px;
-    color: white;
+.footer {
+border-radius:5px;
+    background-color: #25242c;
 }
-.ftList {
-    list-style-type: none;
-    display: inline-block;
-    float: left;
-    list-style-type: none;
+
+#footerCopyRight {
+    font-family: 'La Belle Aurore', cursive;
+    font-size:20px;
+    color: #ec3f8c;
 }
-.ftListLeft {
-	color: #ec3f8c;
-}
-#footerRight {
-	color: #39b1c6;
-    float: right;
+.footer a {
+    margin-left:4px;
+    font-size:10px;
+    float:right;
 }
