@@ -57,7 +57,7 @@ a.btn.btn-default:hover {
 .jumbotron h3 {
     font-family: 'Racing Sans One', cursive;
     color: #39b1c6;
-    margin-bottom:200px;
+    margin-bottom:100px;
 }
 
 .jumbotronCustomButton {
@@ -65,21 +65,21 @@ text-decoration:none;
 margin-top:20px;
 border-radius:45px;
 background-color: #25242c;
-    height: 200px;
-    width: 200px;
-    line-height:200px;
+    height: 175px;
+    width: 175px;
+    line-height:175px;
 }
 .jumbotronCustomButton a {
     text-decoration:none;
-    font-size:30px;
+    font-size:140px;
 }
 
 .jumbotronCustomButton:hover {
 margin-top:20px;
 border-radius:45px;
-    height: 200px;
-    width: 200px;
-    line-height:200px;
+    height: 175px;
+    width: 175px;
+    line-height:175px;
 }
 
 .jumbotronCustomButtonLeft a {
@@ -107,7 +107,8 @@ border-radius:45px;
 
 //content
 .container.content {
-    margin-top:100px;
+    margin-top:50px;
+    margin-bottom:100px;
 }
 
 .col-sm-4.content h3 {
