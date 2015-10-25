@@ -60,15 +60,50 @@ a.btn.btn-default:hover {
     margin-bottom:200px;
 }
 
-.jumboCustomButton {
+.jumbotronCustomButton {
+text-decoration:none;
 margin-top:20px;
 border-radius:45px;
-background-color: #515056;
-    height: 150px;
-    width: 150px;
-    line-height:150px;
+background-color: #25242c;
+    height: 200px;
+    width: 200px;
+    line-height:200px;
+}
+.jumbotronCustomButton a {
+    text-decoration:none;
+    font-size:30px;
 }
 
+.jumbotronCustomButton:hover {
+margin-top:20px;
+border-radius:45px;
+    height: 200px;
+    width: 200px;
+    line-height:200px;
+}
+
+.jumbotronCustomButtonLeft a {
+    color: #ec3f8c;
+}
+.jumbotronCustomButtonCenter a {
+    color: #39b1c6;
+}
+.jumbotronCustomButtonRight a {
+    color: #1fd26a;
+}
+
+.jumbotronCustomButtonLeft:hover, .jumbotronCustomButtonLeft:hover a {
+    color: white;
+    background-color: #ec3f8c;
+}
+.jumbotronCustomButtonCenter:hover, .jumbotronCustomButtonCenter:hover a {
+    color: white;
+    background-color: #39b1c6;
+}
+.jumbotronCustomButtonRight:hover, .jumbotronCustomButtonRight:hover a {
+    color: white;
+    background-color: #1fd26a;
+}
 
 //content
 .container.content {
