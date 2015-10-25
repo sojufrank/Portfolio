@@ -110,11 +110,9 @@ border-radius:45px;
     margin-top:50px;
     margin-bottom:100px;
 }
-
 .col-sm-4.content {
     height: 500px;
 }
-
 .col-sm-4.content h3 {
     font-family: 'Sigmar One', cursive;
     text-align: center;
@@ -126,15 +124,25 @@ border-radius:45px;
     //text-align: center;
     color: #39b1c6;
 }
-
 .contentButton {
-
     position: absolute;
     bottom:0;
 }
-
 .contentButton a {
     width:150px;
+}
+.thumbnail img:hover {
+
+    transform:scale(1.2);
+}
+.thumbnail img {
+    transition: all 0.3s ease 0s;
+    width:100%;
+}
+.thumbnail {
+    border:solid 3px transparent;
+    background-color: #25242c;
+    overflow:hidden;
 }
 
 
