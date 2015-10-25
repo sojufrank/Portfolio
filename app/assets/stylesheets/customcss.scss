@@ -111,12 +111,17 @@ border-radius:45px;
     margin-bottom:100px;
 }
 
+.col-sm-4.content {
+    height: 500px;
+}
+
 .col-sm-4.content h3 {
     font-family: 'Sigmar One', cursive;
     text-align: center;
     color: #ec3f8c;
 }
 .col-sm-4.content p {
+    margin-top:10px;
     font-family: 'Candal', sans-serif;
     //text-align: center;
     color: #39b1c6;
