@@ -133,24 +133,22 @@ border-radius:45px;
 }
 
 
-
-
-
 //footer
 .footer {
-height:100px;
-border-radius:5px;
     background-color: #25242c;
+    height:100px;
+    position:relative;
 }
-
-#footerCopyRight {
+.footerLeft {
+    margin-left:20px;
+    font-size:2em;
     font-family: 'La Belle Aurore', cursive;
-    font-size:20px;
     color: #ec3f8c;
+    position:absolute;
+    top:50%
 }
-.footer a {
-    padding-top:3px;
-    margin-left:4px;
-    font-size:10px;
-    float:right;
+.footerRight {
+    right:0;
+    position:absolute;
+    top:33%;
 }
